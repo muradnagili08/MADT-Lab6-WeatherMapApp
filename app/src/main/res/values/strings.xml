@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">Weather Map App</string>
+
+    <!-- Authentication Screens -->
+    <string name="auth_login_title">Welcome Back</string>
+    <string name="auth_login_subtitle">Sign in to view weather maps and forecasts</string>
+    <string name="auth_register_title">Create Account</string>
+    <string name="auth_register_subtitle">Register to unlock real-time weather data</string>
+    <string name="auth_email_label">Email Address</string>
+    <string name="auth_email_hint">Enter your email</string>
+    <string name="auth_password_label">Password</string>
+    <string name="auth_password_hint">Enter your password</string>
+    <string name="auth_confirm_password_label">Confirm Password</string>
+    <string name="auth_confirm_password_hint">Re-enter your password</string>
+    <string name="auth_login_button">Sign In</string>
+    <string name="auth_register_button">Register</string>
+    <string name="auth_no_account">Don\'t have an account? Sign up</string>
+    <string name="auth_have_account">Already have an account? Sign in</string>
+    <string name="auth_logout">Sign Out</string>
+
+    <!-- Validation & Auth Error Messages -->
+    <string name="error_email_empty">Email address cannot be empty</string>
+    <string name="error_email_invalid">Please enter a valid email address</string>
+    <string name="error_password_empty">Password cannot be empty</string>
+    <string name="error_password_short">Password must be at least 6 characters</string>
+    <string name="error_passwords_mismatch">Passwords do not match</string>
+    <string name="error_auth_failed">Authentication failed: %1$s</string>
+    <string name="error_auth_required">Authentication required: You must be signed in to request weather data.</string>
+
+    <!-- Map & Weather UI -->
+    <string name="map_title">Lithuania Weather Map</string>
+    <string name="search_placeholder">Search Lithuanian cities…</string>
+    <string name="search_clear">Clear search</string>
+    <string name="filter_title">Filters</string>
+    <string name="filter_reset">Reset</string>
+    <string name="filter_condition_all">All Conditions</string>
+    <string name="filter_condition_clear">Clear</string>
+    <string name="filter_condition_cloudy">Cloudy</string>
+    <string name="filter_condition_rain">Rain</string>
+    <string name="filter_condition_snow">Snow</string>
+
+    <string name="filter_temp_all">All Temperatures</string>
+    <string name="filter_temp_warm">Above 15°C</string>
+    <string name="filter_temp_mild">0°C to 15°C</string>
+    <string name="filter_temp_cold">Below 0°C</string>
+
+    <string name="filtered_results_count">%1$d cities shown</string>
+    <string name="no_cities_found">No weather stations match your active filters.</string>
+
+    <!-- Weather Details Sheet -->
+    <string name="weather_details_title">Station Forecast</string>
+    <string name="weather_temp_format">%1$.1f°C</string>
+    <string name="weather_feels_like">Feels like %1$.1f°C</string>
+    <string name="weather_wind_speed">Wind: %1$.1f m/s</string>
+    <string name="weather_humidity">Humidity: %1$d%%</string>
+    <string name="weather_cloud_cover">Clouds: %1$d%%</string>
+    <string name="weather_pressure">Pressure: %1$d hPa</string>
+    <string name="weather_coordinates">Coordinates: %1$.4f, %2$.4f</string>
+    <string name="weather_hourly_forecast">Upcoming Hourly Forecast</string>
+    <string name="weather_source_attribution">Data source: Meteo.lt Open API</string>
+    <string name="button_close">Close</string>
+
+    <!-- Status & Alerts -->
+    <string name="loading_weather_data">Fetching Meteo.lt weather data…</string>
+    <string name="error_network_failed">Unable to reach weather service. Check your internet connection.</string>
+    <string name="button_retry">Retry</string>
+    <string name="maps_api_key_warning">Google Maps API key is missing. Add MAPS_API_KEY to local.properties to view map tiles.</string>
+</resources>

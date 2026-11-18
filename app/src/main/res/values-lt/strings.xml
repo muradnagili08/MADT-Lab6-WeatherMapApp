@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">Orai Žemėlapyje</string>
+
+    <!-- Authentication Screens -->
+    <string name="auth_login_title">Sveiki sugrįžę</string>
+    <string name="auth_login_subtitle">Prisijunkite, kad matytumėte orų žemėlapį ir prognozes</string>
+    <string name="auth_register_title">Sukurti paskyrą</string>
+    <string name="auth_register_subtitle">Registruokitės, kad pasiektumėte tiesioginius orų duomenis</string>
+    <string name="auth_email_label">El. pašto adresas</string>
+    <string name="auth_email_hint">Įveskite el. pašto adresą</string>
+    <string name="auth_password_label">Slaptažodis</string>
+    <string name="auth_password_hint">Įveskite slaptažodį</string>
+    <string name="auth_confirm_password_label">Pakartokite slaptažodį</string>
+    <string name="auth_confirm_password_hint">Pakartokite slaptažodį</string>
+    <string name="auth_login_button">Prisijungti</string>
+    <string name="auth_register_button">Registruotis</string>
+    <string name="auth_no_account">Neturite paskyros? Registruokitės</string>
+    <string name="auth_have_account">Jau turite paskyrą? Prisijunkite</string>
+    <string name="auth_logout">Atsijungti</string>
+
+    <!-- Validation & Auth Error Messages -->
+    <string name="error_email_empty">El. pašto adresas negali būti tuščias</string>
+    <string name="error_email_invalid">Įveskite teisingą el. pašto adresą</string>
+    <string name="error_password_empty">Slaptažodis negali būti tuščias</string>
+    <string name="error_password_short">Slaptažodis turi būti bent 6 simbolių ilgio</string>
+    <string name="error_passwords_mismatch">Slaptažodžiai nesutampa</string>
+    <string name="error_auth_failed">Autentifikacija nepavyko: %1$s</string>
+    <string name="error_auth_required">Būtina autentifikacija: Tik prisijungę naudotojai gali gauti orų duomenis.</string>
+
+    <!-- Map & Weather UI -->
+    <string name="map_title">Lietuvos orų žemėlapis</string>
+    <string name="search_placeholder">Ieškoti Lietuvos miestų…</string>
+    <string name="search_clear">Išvalyti paiešką</string>
+    <string name="filter_title">Filtrai</string>
+    <string name="filter_reset">Atstatyti</string>
+    <string name="filter_condition_all">Visos sąlygos</string>
+    <string name="filter_condition_clear">Giedra</string>
+    <string name="filter_condition_cloudy">Debesuota</string>
+    <string name="filter_condition_rain">Lietus</string>
+    <string name="filter_condition_snow">Sniegas</string>
+
+    <string name="filter_temp_all">Visos temperatūros</string>
+    <string name="filter_temp_warm">Virš 15°C</string>
+    <string name="filter_temp_mild">Nuo 0°C iki 15°C</string>
+    <string name="filter_temp_cold">Žemiau 0°C</string>
+
+    <string name="filtered_results_count">Rodomi miestai: %1$d</string>
+    <string name="no_cities_found">Pagal nustatytus filtrus nerasta jokių stočių.</string>
+
+    <!-- Weather Details Sheet -->
+    <string name="weather_details_title">Stoties prognozė</string>
+    <string name="weather_temp_format">%1$.1f°C</string>
+    <string name="weather_feels_like">Jaučiama %1$.1f°C</string>
+    <string name="weather_wind_speed">Vėjas: %1$.1f m/s</string>
+    <string name="weather_humidity">Drėgnumas: %1$d%%</string>
+    <string name="weather_cloud_cover">Debesuotumas: %1$d%%</string>
+    <string name="weather_pressure">Slėgis: %1$d hPa</string>
+    <string name="weather_coordinates">Koordinatės: %1$.4f, %2$.4f</string>
+    <string name="weather_hourly_forecast">Artimiausių valandų prognozė</string>
+    <string name="weather_source_attribution">Duomenų šaltinis: Meteo.lt atvira API</string>
+    <string name="button_close">Uždaryti</string>
+
+    <!-- Status & Alerts -->
+    <string name="loading_weather_data">Gaunami Meteo.lt orų duomenys…</string>
+    <string name="error_network_failed">Nepavyko pasiekti orų tarnybos. Patikrinkite interneto ryšį.</string>
+    <string name="button_retry">Pakartoti</string>
+    <string name="maps_api_key_warning">Trūksta Google Maps API rakto. Įrašykite MAPS_API_KEY į failą local.properties.</string>
+</resources>
